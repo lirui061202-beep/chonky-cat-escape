@@ -49,6 +49,8 @@
 <script>window.__CAT_TARGET__="poki-escape";
 window.addEventListener("keydown",function(e){if(["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"," "].indexOf(e.key)>=0)e.preventDefault();},{passive:false});
 window.addEventListener("wheel",function(e){e.preventDefault();},{passive:false});</script>
+<style>#cat-loading{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#fdf6e3;color:#7a5a3a;font:600 22px/1.4 system-ui,sans-serif;z-index:9;pointer-events:none}</style>
+<script>document.addEventListener("DOMContentLoaded",function(){var d=document.createElement("div");d.id="cat-loading";d.textContent="Loading Chonky...";document.body.appendChild(d);});window.__catLoaded=function(){var d=document.getElementById("cat-loading");if(d)d.remove();};</script>
 <script src="src/polyfills.bundle.js" charset="utf-8"> </script>
 
 
